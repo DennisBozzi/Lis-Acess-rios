@@ -90,9 +90,6 @@ body {
 }
 
 
-
-
-
 .sec-rodape {
     margin-top: 50px;
     border-top: 1px solid grey;
@@ -114,4 +111,5 @@ body {
 .copyright {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 13px;
 }
