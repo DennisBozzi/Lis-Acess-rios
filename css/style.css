@@ -3,17 +3,18 @@ body {
 }
 
 .div-cabecalho {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgray;
 }
 
 .cabecalho { 
-    width: 940px;
+    width: 1650px;
     margin: 0 auto;
     position: relative;
 }
 
 .logo {
-    width: 10%;
+    width: 65px;
+    margin: 5px 0;
 }
 
 .nav-cabecalho {
@@ -92,7 +93,7 @@ body {
 
 .sec-rodape {
     margin-top: 50px;
-    border-top: 1px solid grey;
+    border-top: 1px solid lightgray;
 }
 
 .rodape {
@@ -112,4 +113,71 @@ body {
     text-align: center;
     margin-bottom: 10px;
     font-size: 13px;
+}
+
+/* ---------------------------------------------------------------------- CSS DOS PRODUTOS ---------------------------------------------------------------- */
+
+.titulo-box {
+    width: 1650px;
+    margin: 0 auto 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.mini-menu {
+    display: inline-block;
+    margin-top: 30px;
+    margin: 30px 5px 0 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.titulo {
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin: 80px 0 110px;
+    font-size: 45px;
+}
+
+.div-img-produtos {
+    width: 1650px;
+    margin: 0 auto;
+}
+
+.mini-box-produtos {
+    width: 370px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 39px;
+}
+
+.imagens-produtos {
+    margin: 0 0 25px;
+    width: 90%;
+}
+
+.nome-produtos {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 30px 10px 30px;
+    font-size: 20px;
+    transition: 0.55s;
+}
+
+.nome-produtos:hover {
+    color: gray;
+}
+
+.descricao-produtos {
+    font-size: 13px;
+    color: gray;
+    display: block;
+    margin: 0 30px 5px 30px;
+}
+
+.valor-produtos {
+    font-size: 20px;
+    display: block;
+    margin: 20px 30px 10px 30px;
+    font-weight: bold;
 }
