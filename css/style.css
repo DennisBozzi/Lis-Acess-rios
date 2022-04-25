@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #FEFEFE;
 }
 
 .div-cabecalho {
@@ -141,7 +142,7 @@ body {
 
 .div-img-produtos {
     width: 1650px;
-    margin: 0 auto;
+    margin: 25px auto 0;
 }
 
 .mini-box-produtos {
@@ -149,6 +150,11 @@ body {
     height: 500px;
     display: inline-block;
     margin-left: 39px;
+    transition: 0.55s;
+}
+
+.mini-box-produtos:hover {
+    transform: scale(1.1);
 }
 
 .imagens-produtos {
@@ -183,7 +189,7 @@ body {
 }
 
 .navegador-box {
-    width: 85px;
+    width: 87px;
     margin: 0 auto;
 }
 .navegador {
